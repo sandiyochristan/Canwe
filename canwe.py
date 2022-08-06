@@ -10,8 +10,7 @@ from Vulnerabilities.cors import Cors
 from Vulnerabilities.openredirect import OpenRedirect
 from Vulnerabilities.bruteforce import ssh,ftp
 def Banner():
-    print('''
-CANWE \n''')
+    print('''CANWE \n''')
 
 host = None
 port = None
